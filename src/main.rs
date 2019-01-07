@@ -13,7 +13,12 @@ fn main() {
         });
     println!("{}", sum);
 }
-
+///
+/// Reads the stdin to a String
+/// Example
+/// ```
+/// let stdin = stdin_to_string().expect("failed to read stdin");
+/// ```
 fn stdin_to_string() -> Result<String> {
     let mut buffer = String::new();
     let stdin = stdin();
