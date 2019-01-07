@@ -13,6 +13,7 @@ fn main() {
         });
     println!("{}", sum);
 }
+
 ///
 /// Reads the stdin to a String
 /// Example
